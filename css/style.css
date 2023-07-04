@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Belanosima&family=Caprasimo&family=Montserrat:wght@400;600&display=swap');
+
+.container-fluid{
+    padding: 0;
+}
+.nav-link{
+    color:white ;
+    border-radius: 0.375rem;
+    font-family: 'Caprasimo', cursive;
+}
+.nav-link:focus{
+    color:white;
+    font-family: 'Caprasimo', cursive;
+}
+.nav-link:hover{
+    color:grey;
+    font-family: 'Caprasimo', cursive;
+}
+.couleur-logo{
+    fill:white !important;
+}
+.nav-link.active{
+    background-color:white;
+}
+.dropdown-toggle{
+    color:white;
+    font-family: 'Caprasimo', cursive;
+}
+.dropdown-toggle.active{
+    background-color: black;
+    color:white;
+}
+.dropdown-menu:hover{
+    background-color:grey;
+}
+a.dropdown-item{
+    color:black;
+    font-family: 'Caprasimo', cursive;
+}
+a.drrpdown-item:hover{
+    background-color: grey;
+}
+.icons{
+    background-color:black;
+}
+.wall{
+    background-size: cover;
+    background-position: center;
+}
+body{
+    color:white;
+    font-family: 'Caprasimo', cursive;
+}
+.wall{
+    height:50vh;   
+}
+.promo{
+    color:black;
+    font-family: 'Caprasimo', cursive;
+    background-color:yellow;
+}
+.chaussure-article{
+    position: relative;
+    cursor: pointer;
+}
+.chaussure-article img{
+    width:100%;
+    filter: grayscale();
+    scale: 0.9;
+    transition: all 1s;
+}
+.chaussure-article img:hover{
+    filter: none;
+    cursor: pointer;
+    scale: 1;
+}
+.prix-chaussure{
+    z-index: 10;
+    color:black;
+    font-size: 1.5rem;
+    top:10%;
+    left:10%;
+    background-color: yellow;
+    transform: rotate(-0.05turn);
+    box-shadow: 5px 5px;
+    aspect-ratio: 1/1;
+}
+.nom-chaussure{
+    z-index: 10;
+    background-color: yellow;
+    color:black;
+    font-size: 1.5rem;
+    top:10%;
+    left:40%;
+    transform: rotate(0.05turn);
+    box-shadow: 5px 5px;
+}
+.couleur-logo-footer{
+    fill:black;
+    background-color: yellow;
+}
+.slogan-text{
+    color: yellow;
+    font-family: 'Caprasimo', cursive;
+    font-size: 5rem;
+}
+.slogan-footer{
+    background-color: black;
+    height: 168px;
+}

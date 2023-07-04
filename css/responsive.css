@@ -1,0 +1,32 @@
+@media screen and (max-width: 992px){
+    body{
+        color:black;
+    }
+    .nav-link.active{
+        background-color:yellow;
+        width:100%;
+    }
+    .couleur-logo{
+        fill:yellow !important;
+    }
+    .dropdown-menu{
+        background-color:yellow;
+        color: black;
+    }
+    .dropdown-toggle.active{
+        background-color: grey;
+        color:black;
+    }
+    .dropdown-toggle:hover{
+        background-color: yellow;
+        color:black;
+    }
+    .icons{
+        fill:black;
+        background-color:yellow;
+    }
+    .chaussure-article.active{
+        filter: none;
+        scale: 1;
+    }
+}
